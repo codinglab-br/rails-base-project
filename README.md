@@ -17,11 +17,22 @@ git remote add origin your-project-git-url
 bundle install
 ```
 
-Then, make a copy of the `application.yml.example` file located in the `config` folder and rename the new file to `application.yml` and insert your PostgreSQL data (no quotes needed):
+Then, run the following command to create your environment variables file:
+```shell
+bundle exec figaro install
+```
+
+Copy and paste the following lines to the generated `config/application.yml` file:
 ```shell
 DATABASE_NAME: your-project-name
 DATABASE_USERNAME: your-postgres-username
 DATABASE_PASSWORD: your-postgres-password
+```
+
+You can rename the application by changing the `config/application.rb` file on line 11:
+```ruby
+module YourProjectName
+...
 ```
 
 After this, execute the following step:
