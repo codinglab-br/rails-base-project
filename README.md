@@ -1,8 +1,8 @@
 # Rails Base Project
-You can use this project as a quick start for your new Rails project. It was created using Rails 5.1.2 (Ruby 2.3.4), PostgreSQL and RSpec.
+You can use this project as a quick start for your new Rails project. It was created using Rails 5.1.4 (Ruby 2.4.2), PostgreSQL and RSpec.
 
 It also features the following gems:
-- [factory_girl_rails](https://github.com/thoughtbot/factory_girl_rails)
+- [factory_bot_rails](https://github.com/thoughtbot/factory_bot_rails)
 - [shoulda_matchers](https://github.com/thoughtbot/shoulda-matchers)
 - [rubocop](https://github.com/bbatsov/rubocop)
 - [simplecov](https://github.com/colszowka/simplecov)
